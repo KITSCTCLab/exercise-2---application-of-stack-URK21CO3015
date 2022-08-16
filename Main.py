@@ -43,7 +43,7 @@ class Evaluate:
       return x
 
 
-  def push(self, operand):
+  def push(self,operand):
     """
     Push the operand to stack if the stack is not full.
     Arguments:
@@ -87,9 +87,9 @@ class Evaluate:
         b =int(self.pop())
         a =int(self.pop())
         
-        if char=="+":
+        if char=='+':
           result = a+b
-        elif char=="-":
+        elif char=='-':
           result = a-b
         elif char=='*':
           result = a*b
