@@ -68,7 +68,7 @@ class Evaluate:
         continue
       else:
         value = False
-   return value     
+    return value     
 
 
   def evaluate_postfix_expression(self, expression):
